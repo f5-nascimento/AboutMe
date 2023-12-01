@@ -73,7 +73,7 @@ header h1 {
 
 
 /*Configuração Global em Dispositivos Extra small screen*/
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
     header {
         width: 480px;
@@ -111,7 +111,7 @@ header h1 {
 
 
 /*Configuração Global nos demais dispositivos*/
-@media screen and (min-width: 480px) {
+@media (min-width: 480px) {
 
     header h1 {
         width: 390px;

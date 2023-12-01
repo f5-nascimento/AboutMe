@@ -32,6 +32,19 @@ section #about-resume p{
 
 @media (max-width: 480px){
     
+    section{
+        width: 480px;
+    }
+
+    section #about-resume{
+        width: 480px;
+
+    }
+
+    section #about-resume h1{
+        width: 480px;
+    }
+
     section #about-resume p{
         width: 300px;
         height: 100px;
