@@ -25,8 +25,7 @@ Você pode conferir a inspiração da interface no [Developer Portifolios](https
 
 ## Preview
 
-![sistok](https://github.com/f5-nascimento/Sistok/assets/28812188/0eeb7054-37d7-40bd-abb3-002fbfeb3d88)
-
+![aboutme](https://github.com/f5-nascimento/AboutMe/assets/28812188/b61d6a27-8084-4d93-8caf-5d4fc0c1a8c6)
 
 ## Deploy
 
