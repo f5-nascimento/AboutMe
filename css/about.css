@@ -7,8 +7,6 @@ section{
     justify-content: center;
     padding: 20px;
 }
-
-
 section #about-resume{
     width: 543px;
     height: 328px;
@@ -26,12 +24,28 @@ section #about-resume h1{
 }
 
 section #about-resume p{
-    width: 600px;
-    height: 224px;
-    font-size: 18px;
     font-weight: 500;
     color: #898b8e;
     margin-top: 10px;
+}
+
+
+@media (max-width: 480px){
+    
+    section #about-resume p{
+        width: 300px;
+        height: 100px;
+        font-size: 12px; 
+    }
+}
+
+@media (min-width: 480px){
+    
+    section #about-resume p{
+        width: 600px;
+        height: 224px;
+        font-size: 18px;
+    } 
 }
 
 
