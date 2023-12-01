@@ -1,3 +1,5 @@
+/*Configuração Global em todos os Dispositivos*/
+
 header {
     width: 100vw;
     height: 100vh;
@@ -40,11 +42,6 @@ header h1 {
 
 }
 
-/* .header-icons a img:hover{
-    filter: invert(0);
-    background: #ed6e16;
-} */
-
 .header-resume {
     width: 371px;
     height: 40px;
@@ -74,7 +71,13 @@ header h1 {
     border: 3px solid #ed6e16;
 }
 
-@media (max-width: 480px) {
+
+/*Configuração Global em Dispositivos Extra small screen*/
+@media screen and (max-width: 480px) {
+
+    header {
+        width: 480px;
+    }
 
     header h1 {
         width: 100vw;
@@ -106,7 +109,9 @@ header h1 {
 
 }
 
-@media (min-width: 480px) {
+
+/*Configuração Global nos demais dispositivos*/
+@media screen and (min-width: 480px) {
 
     header h1 {
         width: 390px;
