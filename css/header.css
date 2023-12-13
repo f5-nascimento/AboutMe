@@ -111,7 +111,7 @@ header h1 {
 
 
 /*Configuração Global nos demais dispositivos*/
-@media (min-width: 480px) {
+@media (min-width: 481px) {
 
     header h1 {
         width: 390px;
