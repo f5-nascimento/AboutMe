@@ -42,6 +42,12 @@ header h1 {
 
 }
 
+.header-icons a:hover {
+    filter: invert(45%) sepia(67%) saturate(1401%) hue-rotate(353deg) brightness(96%) contrast(93%);
+}
+
+
+
 .header-resume {
     width: 371px;
     height: 40px;
@@ -72,7 +78,7 @@ header h1 {
 }
 
 
-/*Configuração Global em Dispositivos Extra small screen*/
+/*Configuração dispositivos móveis*/
 @media (max-width: 480px) {
 
     header {
@@ -110,8 +116,12 @@ header h1 {
 }
 
 
-/*Configuração Global nos demais dispositivos*/
-@media (min-width: 480px) {
+/*Configuração iPads, tablets*/
+@media (max-width: 768px) {
+
+    header{
+        width: 768px;
+    }
 
     header h1 {
         width: 390px;
@@ -127,3 +137,4 @@ header h1 {
     }
 
 }
+
